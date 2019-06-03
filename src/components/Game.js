@@ -16,6 +16,7 @@ class Game extends React.Component {
     };
   }
 
+  
   // TODO: create a componentDidMount() which will set the current time
   
   setCurrentTime = () => {
@@ -26,6 +27,10 @@ class Game extends React.Component {
     this.setState({
       pancakes: this.state.pancakes.concat(Date.now())
     });
+  }
+
+  componentDidMount() {
+    this.setCurrentTime();
   }
 
   takeItOff = (id, status) => {
