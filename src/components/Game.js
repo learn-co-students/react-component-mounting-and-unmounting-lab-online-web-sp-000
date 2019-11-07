@@ -16,7 +16,13 @@ class Game extends React.Component {
     };
   }
 
-  // TODO: create a componentDidMount() which will set the current time
+  // Created a componentDidMount() that will be fired as a result of the intial render. 
+  // The componentDidMount runs a function that sets the time of when I loaded the app. 
+  // The time can be seen at the top of the page. 
+
+  componentDidMount() {
+    this.setCurrentTime();
+  }
   
   setCurrentTime = () => {
     this.setState({ time: new Date(Date.now())});
