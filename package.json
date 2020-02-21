@@ -30,7 +30,8 @@
     "mocha-multi": "^1.0.1",
     "react": "^16.0.0",
     "react-dom": "^16.4.2",
-    "sinon": "^1.17.7"
+    "sinon": "^1.17.7",
+    "test": "^0.6.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -31,7 +31,7 @@ class Pancake extends React.Component {
   };
 
   cleanUpInterval = () => {
-    this.clearInterval(this.interval);
+    clearInterval(this.interval);
   };
 
   flip = () => {
