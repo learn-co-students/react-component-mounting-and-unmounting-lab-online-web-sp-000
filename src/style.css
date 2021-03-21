@@ -4,7 +4,7 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   padding: 20px;
-  background-color: white;
+  background-color: burlywood;
   min-height: 200px;
   text-align: center;
 }
@@ -28,7 +28,7 @@ main {
 }
 
 html {
-  background-color: #EDEDED;
+  background-color: gray;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
