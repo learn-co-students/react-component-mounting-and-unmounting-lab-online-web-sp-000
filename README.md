@@ -1,4 +1,4 @@
-# React: Component Mounting and Unmounting
+/# React: Component Mounting and Unmounting
 
 ## Objectives
 
@@ -56,7 +56,7 @@ leaving your intervals ticking after the component using them has been
 dismounted. As you can see, a `cleanUpInterval()` function is all set up for
 you, so all you have left to do it call it just before the component gets
 unmounted from the page. That will be in the `componentWillUnmount()` method.
-
+?lk 321'
 That's it! You've finished off the game! Happy pancake-making!
 
 ## Resources
